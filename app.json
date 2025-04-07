@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "CareSanctum-Mobile",
+    "slug": "CareSanctum-Mobile",
+    "scheme": "caresanctum",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "icon": {
+        "light": "./assets/icons/Light.png",
+        "dark": "./assets/icons/Dark.png",
+        "tinted": "./assets/icons/Tinted.png"
+      },
+      "bundleIdentifier": "com.caresanctum.CareSanctumMobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.caresanctum.CareSanctumMobile"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#ffffff",
+          "image": "./assets/icons/splash-icon-dark.png",
+          "dark": {
+            "image": "./assets/icons/splash-icon-light.png",
+            "backgroundColor": "#000000"
+          },
+          "imageWidth": 200
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ccd0db03-478c-453c-b030-902dedf5ead8"
+      }
+    },
+    "owner": "caresanctum"
+  }
+}
